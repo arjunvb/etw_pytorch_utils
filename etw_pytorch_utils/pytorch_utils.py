@@ -5,6 +5,7 @@ from __future__ import (
     print_function,
     unicode_literals,
 )
+import os
 import torch
 import torch.nn as nn
 from torch.autograd.function import InplaceFunction
